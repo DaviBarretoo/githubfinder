@@ -61,5 +61,12 @@ font-weight: bold;
     background-color: #644aff;
     padding: 1rem;
     border-radius: 5px;
+    opacity: .8;
+    transition: .3s;
+}
+
+.user a:hover {
+ opacity: 1;
+ background-color: #3700fc;
 }
 
