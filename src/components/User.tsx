@@ -30,8 +30,8 @@ export default function User({login,
     </p>
 )}
 
-<div>
-    <div className={classes.stats}>
+<div className={classes.stats}>
+    <div >
 <p>Seguidores:</p>
 <p className={classes.number}>{followers}</p>
     </div>
